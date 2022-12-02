@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Tenor Sans',sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+#header {
+    padding: 20px 0;
+    -webkit-box-shadow: -3px 15px 30px -3px rgba(20, 38, 51, 0.85);
+    -moz-box-shadow: -3px 15px 30px -3px rgba(20, 38, 51, 0.85);
+    box-shadow: -3px 15px 30px -3px rgba(20, 38, 51, 0.85);
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 99;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800px;
+}
+.header-nav a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin: 0 20px;
+}
+
+#hero {
+    padding: 50px 0;
+}
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-title h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.hero-title h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 429px;
+    padding: 20px 0;
+}
+.hero-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    width: 419px;
+    padding-bottom: 20px;
+}
+.hero-title h4 {
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#blocks {
+    padding: 50px 0;
+}
+.block h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding: 10px 0;
+}
+.block h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 368px;
+    padding-bottom: 10px;
+}
+.block h2 {
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.blocks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.block {
+    margin-bottom: 40p;
+}
+
+.liner {
+    width: 80%;
+    background: gray;
+    height: 2px;
+    margin: 0 auto;
+}
+.linerr {
+    width: 80%;
+    background: gray;
+    height: 2px;
+    margin: 0 auto;
+}
+#card {
+    padding: 50px 0;
+}
+.bloc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 90px 0;
+}
+.blo h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding: 10px 0;
+}
+.blo h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 284px;
+    padding-bottom: 10px;
+}
+.blo h2 {
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.blo img {
+    width: 285px;
+    height: 187px;
+}
+
+.card-btn {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 25px 30px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    transition: .4s;
+}
+.card-btn:hover {
+    background: transparent;
+    border: 2px solid #000000;
+    transform: scale(1.1);
+
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    margin-bottom: 30px;
+}
+.card h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding: 10px 0;
+}
+.card h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.card h2 {
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#footer {
+    background: #141414;
+    padding: 20px 0;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background: #2f2f2f;
+}
+.footer-title h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    padding-bottom: 15px;
+}
+.footer-title h1 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.footer-start {
+    padding: 50px 0;
+    display: flex;
+    align-items: flex-end;
+
+}
+.footer-start h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.footer-start p {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.footer-info h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.footer-info h1 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.footer-center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.footer-email h2 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    padding-bottom: 10px;
+}
+.footer-end {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.footer-title {
+    margin-right: 147px;
+    padding-top: 30px;
+}
+.footer-title1 h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    padding-bottom: 15px;
+}
+.footer-title1 h1 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.footer-info {
+    padding-top: 25px;
+}
+.footer-email input {
+    width: 221px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.footer-email input::placeholder {
+    padding-left: 25px;
+}
+.footer-email button {
+    width: 79px;
+    height: 48px;
+    background: #000000;
+    outline: none;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-email div {
+    display: flex;
+    align-items: center;
+}
+#football {
+    padding: 90px 0;
+
+}
